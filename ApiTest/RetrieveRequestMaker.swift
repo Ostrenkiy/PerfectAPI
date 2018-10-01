@@ -11,8 +11,6 @@ import SwiftyJSON
 import PromiseKit
 import Alamofire
 
-//typealias CancelationToken = () -> Void
-
 protocol DataDeserializable {
     init(serializedData: Data)
 }
@@ -22,10 +20,6 @@ protocol ObjectDeserializer {
     associatedtype SerializedType: DataDeserializable
     
     func deserialize(serialized: SerializedType) -> ObjectType?
-}
-
-protocol JSONObjectDeserializer {
-    associatedtype ObjectType
 }
 
 extension JSON: DataDeserializable {
