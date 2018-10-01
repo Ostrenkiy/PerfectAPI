@@ -8,10 +8,12 @@
 
 import Foundation
 
-class Course {
+final class Course {
     var id: Int
+    var title: String
     
-    init(id: Int) {
+    init(id: Int, title: String) {
         self.id = id
+        self.title = title
     }
 }

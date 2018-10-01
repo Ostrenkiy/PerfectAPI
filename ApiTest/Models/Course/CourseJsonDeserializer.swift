@@ -11,8 +11,9 @@ import SwiftyJSON
 
 class CourseJsonDeserializer: ObjectJsonDeserializerProtocol {
     func deserialize(serialized: JSON) -> Course? {
-        if let id = serialized["id"].int {
-            return Course(id: id)
+        if let id = serialized["id"].int,
+           let title = serialized["title"].string {
+            return Course(id: id, title: title)
         } else {
             return nil
         }

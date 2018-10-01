@@ -26,6 +26,7 @@
 		081BB5502162A22200E5ADDA /* CoursesResponseDeserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB54F2162A22200E5ADDA /* CoursesResponseDeserializer.swift */; };
 		081BB5522162A23D00E5ADDA /* DataDeserializableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB5512162A23D00E5ADDA /* DataDeserializableProtocol.swift */; };
 		081BB5542162A40500E5ADDA /* ObjectJsonDeserializerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB5532162A40500E5ADDA /* ObjectJsonDeserializerProtocol.swift */; };
+		081BB5572162A82F00E5ADDA /* CoursePersistent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB5562162A82F00E5ADDA /* CoursePersistent.swift */; };
 		5991C1861EA25CFCFA7E388E /* Pods_ApiTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB49F332F189D4949CD44D85 /* Pods_ApiTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		081BB54F2162A22200E5ADDA /* CoursesResponseDeserializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesResponseDeserializer.swift; sourceTree = "<group>"; };
 		081BB5512162A23D00E5ADDA /* DataDeserializableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDeserializableProtocol.swift; sourceTree = "<group>"; };
 		081BB5532162A40500E5ADDA /* ObjectJsonDeserializerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectJsonDeserializerProtocol.swift; sourceTree = "<group>"; };
+		081BB5562162A82F00E5ADDA /* CoursePersistent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePersistent.swift; sourceTree = "<group>"; };
 		6AB59CAC160292FEB233DE6E /* Pods-ApiTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApiTest/Pods-ApiTest.debug.xcconfig"; sourceTree = "<group>"; };
 		BF0A154BFBB17AD5605F264E /* Pods-ApiTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApiTest/Pods-ApiTest.release.xcconfig"; sourceTree = "<group>"; };
 		EB49F332F189D4949CD44D85 /* Pods_ApiTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,7 @@
 		081BB5412162A0B100E5ADDA /* Course */ = {
 			isa = PBXGroup;
 			children = (
+				081BB5552162A82200E5ADDA /* Persistence */,
 				081BB53C2162A07D00E5ADDA /* Course.swift */,
 				081BB5422162A0BF00E5ADDA /* CourseJsonDeserializer.swift */,
 			);
@@ -167,6 +170,14 @@
 				081BB54F2162A22200E5ADDA /* CoursesResponseDeserializer.swift */,
 			);
 			path = "Courses API";
+			sourceTree = "<group>";
+		};
+		081BB5552162A82200E5ADDA /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				081BB5562162A82F00E5ADDA /* CoursePersistent.swift */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 		44C75B27FFCD205E4F74CA0C /* Frameworks */ = {
@@ -319,6 +330,7 @@
 				081BB53921629F9F00E5ADDA /* RealmObjectConvertable.swift in Sources */,
 				081BB5472162A14400E5ADDA /* ListJsonDeserializer.swift in Sources */,
 				081BB5502162A22200E5ADDA /* CoursesResponseDeserializer.swift in Sources */,
+				081BB5572162A82F00E5ADDA /* CoursePersistent.swift in Sources */,
 				081BB5402162A0A800E5ADDA /* MetaJsonDeserializer.swift in Sources */,
 				081BB512215EB6C900E5ADDA /* AppDelegate.swift in Sources */,
 				081BB5432162A0BF00E5ADDA /* CourseJsonDeserializer.swift in Sources */,
