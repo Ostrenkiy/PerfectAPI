@@ -1,5 +1,5 @@
 //
-//  DataDeserializable.swift
+//  DataDeserializableProtocol.swift
 //  ApiTest
 //
 //  Created by Ostrenkiy on 01.10.2018.
@@ -9,11 +9,11 @@
 import Foundation
 import SwiftyJSON
 
-protocol DataDeserializable {
+protocol DataDeserializableProtocol {
     init(serializedData: Data)
 }
 
-extension JSON: DataDeserializable {
+extension JSON: DataDeserializableProtocol {
     init(serializedData: Data) {
         self.init(data: serializedData)
     }
