@@ -44,9 +44,12 @@ class RealmPersistenceService {
         self.write(objects: [object])
     }
     
-    func read<T: RealmObjectConvertable>(type: T.Type, predicate: NSPredicate) -> [T] {
-        let res = self.realm?.objects(T.RealmObjectType.self)
-        guard let results = res?.filter(predicate).map({
+    func read<T: RealmObjectConvertable>(type: T.Type, predicate: NSPredicate?) -> [T] {
+        var res = self.realm?.objects(T.RealmObjectType.self)
+        if let predicate = predicate {
+            res = res?.filter(predicate)
+        }
+        guard let results = res?.map({
             T(realmObject: $0)
         }) else {
             return []
