@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyJSON
 
-class MetaJsonDeserializer: ObjectDeserializer {
+class MetaJsonDeserializer: ObjectDeserializerProtocol {
     func deserialize(serialized: JSON) -> Meta? {
         if let hasNext = serialized["has_next"].bool,
             let hasPrev = serialized["has_previous"].bool,

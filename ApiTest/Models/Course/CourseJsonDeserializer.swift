@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyJSON
 
-class CourseJsonDeserializer: ObjectDeserializer {
+class CourseJsonDeserializer: ObjectDeserializerProtocol {
     func deserialize(serialized: JSON) -> Course? {
         if let id = serialized["id"].int {
             return Course(id: id)

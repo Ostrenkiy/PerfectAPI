@@ -21,7 +21,7 @@ class RequestMaker {
         )
     }
     
-    func request<T: ObjectDeserializer>(
+    func request<T: ObjectDeserializerProtocol>(
         path: String,
         method: HTTPMethod,
         params: Parameters,

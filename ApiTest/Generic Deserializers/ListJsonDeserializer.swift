@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyJSON
 
-class ListJsonDeserializer<T: ObjectDeserializer>: ObjectDeserializer where T.SerializedType == JSON {
+class ListJsonDeserializer<T: ObjectDeserializerProtocol>: ObjectDeserializerProtocol where T.SerializedType == JSON {
     var objectJsonDeserializer: T
     
     init(objectJsonDeserializer: T) {

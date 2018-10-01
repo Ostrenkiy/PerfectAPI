@@ -1,5 +1,5 @@
 //
-//  ObjectDeserializer.swift
+//  ObjectDeserializerProtocol.swift
 //  ApiTest
 //
 //  Created by Ostrenkiy on 01.10.2018.
@@ -8,9 +8,9 @@
 
 import Foundation
 
-protocol ObjectDeserializer {
+protocol ObjectDeserializerProtocol {
     associatedtype ObjectType
-    associatedtype SerializedType: DataDeserializable
+    associatedtype SerializedType: DataDeserializableProtocol
     
     func deserialize(serialized: SerializedType) -> ObjectType?
 }

@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyJSON
 
-class CoursesResponseDeserializer: ObjectDeserializer {
+class CoursesResponseDeserializer: ObjectDeserializerProtocol {
     
     var metaJsonDeserializer: MetaJsonDeserializer
     var courseJsonDeserializer: CourseJsonDeserializer
