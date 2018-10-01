@@ -7,5 +7,5 @@ target 'ApiTest' do
   pod 'Alamofire', '4.7.2'
   pod 'SwiftyJSON', '3.1.4'
   pod 'PromiseKit', '6.4.0'
-
+  pod 'RealmSwift', '3.9.0'
 end

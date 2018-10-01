@@ -12,9 +12,19 @@
 		081BB517215EB6C900E5ADDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081BB515215EB6C900E5ADDA /* Main.storyboard */; };
 		081BB519215EB6CA00E5ADDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 081BB518215EB6CA00E5ADDA /* Assets.xcassets */; };
 		081BB51C215EB6CA00E5ADDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081BB51A215EB6CA00E5ADDA /* LaunchScreen.storyboard */; };
-		081BB524215EB80300E5ADDA /* Alamofire-SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB523215EB80300E5ADDA /* Alamofire-SwiftyJSON.swift */; };
-		081BB526215EB85300E5ADDA /* RetrieveRequestMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB525215EB85300E5ADDA /* RetrieveRequestMaker.swift */; };
+		081BB526215EB85300E5ADDA /* RequestMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB525215EB85300E5ADDA /* RequestMaker.swift */; };
 		081BB52A215ECFB600E5ADDA /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB529215ECFB600E5ADDA /* Meta.swift */; };
+		081BB53821629F9F00E5ADDA /* RealmPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB53521629F9F00E5ADDA /* RealmPersistenceService.swift */; };
+		081BB53921629F9F00E5ADDA /* RealmObjectConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB53621629F9F00E5ADDA /* RealmObjectConvertable.swift */; };
+		081BB53D2162A07D00E5ADDA /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB53C2162A07D00E5ADDA /* Course.swift */; };
+		081BB5402162A0A800E5ADDA /* MetaJsonDeserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB53F2162A0A800E5ADDA /* MetaJsonDeserializer.swift */; };
+		081BB5432162A0BF00E5ADDA /* CourseJsonDeserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB5422162A0BF00E5ADDA /* CourseJsonDeserializer.swift */; };
+		081BB5472162A14400E5ADDA /* ListJsonDeserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB5462162A14400E5ADDA /* ListJsonDeserializer.swift */; };
+		081BB5492162A16900E5ADDA /* ObjectDeserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB5482162A16900E5ADDA /* ObjectDeserializer.swift */; };
+		081BB54C2162A1AC00E5ADDA /* CoursesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB54B2162A1AC00E5ADDA /* CoursesApi.swift */; };
+		081BB54E2162A1CA00E5ADDA /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB54D2162A1CA00E5ADDA /* ApiEndpoint.swift */; };
+		081BB5502162A22200E5ADDA /* CoursesResponseDeserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB54F2162A22200E5ADDA /* CoursesResponseDeserializer.swift */; };
+		081BB5522162A23D00E5ADDA /* DataDeserializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BB5512162A23D00E5ADDA /* DataDeserializable.swift */; };
 		5991C1861EA25CFCFA7E388E /* Pods_ApiTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB49F332F189D4949CD44D85 /* Pods_ApiTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,9 +36,19 @@
 		081BB518215EB6CA00E5ADDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		081BB51B215EB6CA00E5ADDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		081BB51D215EB6CB00E5ADDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		081BB523215EB80300E5ADDA /* Alamofire-SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire-SwiftyJSON.swift"; sourceTree = "<group>"; };
-		081BB525215EB85300E5ADDA /* RetrieveRequestMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveRequestMaker.swift; sourceTree = "<group>"; };
+		081BB525215EB85300E5ADDA /* RequestMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMaker.swift; sourceTree = "<group>"; };
 		081BB529215ECFB600E5ADDA /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		081BB53521629F9F00E5ADDA /* RealmPersistenceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmPersistenceService.swift; sourceTree = "<group>"; };
+		081BB53621629F9F00E5ADDA /* RealmObjectConvertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmObjectConvertable.swift; sourceTree = "<group>"; };
+		081BB53C2162A07D00E5ADDA /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		081BB53F2162A0A800E5ADDA /* MetaJsonDeserializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaJsonDeserializer.swift; sourceTree = "<group>"; };
+		081BB5422162A0BF00E5ADDA /* CourseJsonDeserializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseJsonDeserializer.swift; sourceTree = "<group>"; };
+		081BB5462162A14400E5ADDA /* ListJsonDeserializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListJsonDeserializer.swift; sourceTree = "<group>"; };
+		081BB5482162A16900E5ADDA /* ObjectDeserializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDeserializer.swift; sourceTree = "<group>"; };
+		081BB54B2162A1AC00E5ADDA /* CoursesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesApi.swift; sourceTree = "<group>"; };
+		081BB54D2162A1CA00E5ADDA /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
+		081BB54F2162A22200E5ADDA /* CoursesResponseDeserializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesResponseDeserializer.swift; sourceTree = "<group>"; };
+		081BB5512162A23D00E5ADDA /* DataDeserializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDeserializable.swift; sourceTree = "<group>"; };
 		6AB59CAC160292FEB233DE6E /* Pods-ApiTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApiTest/Pods-ApiTest.debug.xcconfig"; sourceTree = "<group>"; };
 		BF0A154BFBB17AD5605F264E /* Pods-ApiTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApiTest/Pods-ApiTest.release.xcconfig"; sourceTree = "<group>"; };
 		EB49F332F189D4949CD44D85 /* Pods_ApiTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,17 +87,83 @@
 		081BB510215EB6C900E5ADDA /* ApiTest */ = {
 			isa = PBXGroup;
 			children = (
-				081BB523215EB80300E5ADDA /* Alamofire-SwiftyJSON.swift */,
+				081BB5452162A12500E5ADDA /* Generic Deserializers */,
+				081BB5442162A10D00E5ADDA /* Network */,
+				081BB53B2162A06900E5ADDA /* Models */,
+				081BB53421629F9F00E5ADDA /* Persistence */,
 				081BB511215EB6C900E5ADDA /* AppDelegate.swift */,
 				081BB513215EB6C900E5ADDA /* ViewController.swift */,
 				081BB515215EB6C900E5ADDA /* Main.storyboard */,
 				081BB518215EB6CA00E5ADDA /* Assets.xcassets */,
 				081BB51A215EB6CA00E5ADDA /* LaunchScreen.storyboard */,
 				081BB51D215EB6CB00E5ADDA /* Info.plist */,
-				081BB525215EB85300E5ADDA /* RetrieveRequestMaker.swift */,
-				081BB529215ECFB600E5ADDA /* Meta.swift */,
 			);
 			path = ApiTest;
+			sourceTree = "<group>";
+		};
+		081BB53421629F9F00E5ADDA /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				081BB53521629F9F00E5ADDA /* RealmPersistenceService.swift */,
+				081BB53621629F9F00E5ADDA /* RealmObjectConvertable.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		081BB53B2162A06900E5ADDA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				081BB53E2162A09600E5ADDA /* Meta */,
+				081BB5412162A0B100E5ADDA /* Course */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		081BB53E2162A09600E5ADDA /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				081BB529215ECFB600E5ADDA /* Meta.swift */,
+				081BB53F2162A0A800E5ADDA /* MetaJsonDeserializer.swift */,
+			);
+			path = Meta;
+			sourceTree = "<group>";
+		};
+		081BB5412162A0B100E5ADDA /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				081BB53C2162A07D00E5ADDA /* Course.swift */,
+				081BB5422162A0BF00E5ADDA /* CourseJsonDeserializer.swift */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		081BB5442162A10D00E5ADDA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				081BB54D2162A1CA00E5ADDA /* ApiEndpoint.swift */,
+				081BB525215EB85300E5ADDA /* RequestMaker.swift */,
+				081BB54A2162A19B00E5ADDA /* Courses API */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		081BB5452162A12500E5ADDA /* Generic Deserializers */ = {
+			isa = PBXGroup;
+			children = (
+				081BB5462162A14400E5ADDA /* ListJsonDeserializer.swift */,
+				081BB5482162A16900E5ADDA /* ObjectDeserializer.swift */,
+				081BB5512162A23D00E5ADDA /* DataDeserializable.swift */,
+			);
+			path = "Generic Deserializers";
+			sourceTree = "<group>";
+		};
+		081BB54A2162A19B00E5ADDA /* Courses API */ = {
+			isa = PBXGroup;
+			children = (
+				081BB54B2162A1AC00E5ADDA /* CoursesApi.swift */,
+				081BB54F2162A22200E5ADDA /* CoursesResponseDeserializer.swift */,
+			);
+			path = "Courses API";
 			sourceTree = "<group>";
 		};
 		44C75B27FFCD205E4F74CA0C /* Frameworks */ = {
@@ -193,12 +279,16 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ApiTest/Pods-ApiTest-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,11 +303,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				081BB526215EB85300E5ADDA /* RetrieveRequestMaker.swift in Sources */,
+				081BB526215EB85300E5ADDA /* RequestMaker.swift in Sources */,
+				081BB54C2162A1AC00E5ADDA /* CoursesApi.swift in Sources */,
+				081BB5492162A16900E5ADDA /* ObjectDeserializer.swift in Sources */,
+				081BB54E2162A1CA00E5ADDA /* ApiEndpoint.swift in Sources */,
+				081BB53D2162A07D00E5ADDA /* Course.swift in Sources */,
+				081BB53821629F9F00E5ADDA /* RealmPersistenceService.swift in Sources */,
 				081BB514215EB6C900E5ADDA /* ViewController.swift in Sources */,
-				081BB524215EB80300E5ADDA /* Alamofire-SwiftyJSON.swift in Sources */,
+				081BB5522162A23D00E5ADDA /* DataDeserializable.swift in Sources */,
 				081BB52A215ECFB600E5ADDA /* Meta.swift in Sources */,
+				081BB53921629F9F00E5ADDA /* RealmObjectConvertable.swift in Sources */,
+				081BB5472162A14400E5ADDA /* ListJsonDeserializer.swift in Sources */,
+				081BB5502162A22200E5ADDA /* CoursesResponseDeserializer.swift in Sources */,
+				081BB5402162A0A800E5ADDA /* MetaJsonDeserializer.swift in Sources */,
 				081BB512215EB6C900E5ADDA /* AppDelegate.swift in Sources */,
+				081BB5432162A0BF00E5ADDA /* CourseJsonDeserializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
