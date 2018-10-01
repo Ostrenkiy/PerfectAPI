@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftyJSON
 
 protocol ObjectDeserializerProtocol {
     associatedtype ObjectType
@@ -14,3 +15,4 @@ protocol ObjectDeserializerProtocol {
     
     func deserialize(serialized: SerializedType) -> ObjectType?
 }
+
